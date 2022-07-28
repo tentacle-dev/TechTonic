@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Buy cool new product</title>
+  </head>
+  <body>
+    <form action="create-checkout-session.php" method="POST">
+      <button type="submit" id="btn">Checkout</button>
+    </form>
+
+    <script src="https://js.stripe.com/v3/"></script>
+        
+  </body>
+<!-- <script>
+
+  (function() {
+    var stripe = Stripe('sk_test_51JRLgcKAow1Nk4KwLXCfMtsH5VhFKiKOBTcRyD4fOse1LWUZtubh1pUmG5uXulwMzx9rPtlbZ77Eple6mAB20VxA00B1OLrkyw');
+  
+    //var cause = "Sales";
+    //var amount = document.getElementById('amount');
+    //var currency = "cad";
+    var btn = document.getElementById('btn');
+  
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      fetch('/checkout_sessions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          cause: cause.value,
+          currency: currency.value,
+          amount: parseInt(amount.value * 100, 10),
+        }),
+      })
+      .then((response) => response.json())
+      .then((session) => {
+        stripe.redirectToCheckout({ sessionId: session.id });
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+    });
+  })();
+  </script> -->
+</html>

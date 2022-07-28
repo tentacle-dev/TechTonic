@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flexbox;
+    
+}
+body{
+    background: white;
+}
+.contact{
+    background-color: #000;
+    color: #fff;
+}
+#copyright{
+    color: white;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.card{
+    position: relative;
+    width: 280px;
+    height: 380px;
+    margin: 30px;
+    overflow: hidden;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+}
+/* .content{
+    background: url(Images/pexels-qaiser-azim-2531734.jpg);
+    background-size: cover;
+    
+} */
+
+.content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition:0.5s;
+}
+
+.content:hover{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.content h2{
+    position: absolute;
+    top: -120px;
+    right: 30px;
+    font-size: 6em;
+}
+.content img{
+    width: 200px;
+}
+
+.content p{
+    font-weight: 400;    
+    color: #fff;
+    font-size: 1.9rem;
+    z-index: 1;
+}
+
+.content a{
+    position: relative;
+    background:#fff;
+    padding: 8px 20px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn2:hover{
+
+    color: white;
+    background-color: black;
+}
+
+#redirect{
+    padding-bottom: 10px;
+}
+.btn2{
+    height: 30px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: bold;
+    padding-bottom: -10px;
+}
+.contact input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline:none;
+    background: black;
+    color: white;
+    margin-top:20px;
+    font-weight:600;
+}
+.contact::placeholder{
+    color: white;
+}
+.btn1{
+    border: none;
+    outline: null;
+    height: 50px;
+    width: 100%;
+    background: #000;
+    color: white;
+    font-weight: bold;
+}
+.banner-text{
+    background: rgba( 0, 229, 255, 0.40 );
+box-shadow: 0 32px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2000.0px );
+-webkit-backdrop-filter: blur( 200.0px );
+border-radius: 5px;
+padding-left: 10px;
+padding-right: 10px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    text-transform: uppercase;  
+}
+#sarees-prod,#shalwars-prod{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+
+.about-me-header{
+    font-size: 5rem;
+    text-align: center;
+    color: wheat;
+}

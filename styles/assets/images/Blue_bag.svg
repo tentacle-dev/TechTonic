@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg4060" viewBox="0 0 367 372" version="1.1">
+  <title id="title4184">Blue bag for shopping. Bolsa azul de compras.</title>
+  <defs id="defs4062">
+    <linearGradient id="linearGradient4919" y2="514.4" gradientUnits="userSpaceOnUse" x2="564.96" gradientTransform="translate(-30.204 -324.25)" y1="590.85" x1="628.06">
+      <stop id="stop3870" stop-color="#000084" offset="0"/>
+      <stop id="stop3872" stop-color="#007ce8" offset="1"/>
+    </linearGradient>
+    <radialGradient id="radialGradient4922" gradientUnits="userSpaceOnUse" cy="291.03" cx="323.46" gradientTransform="matrix(-1.9574 -1.4681 .375 -.5 1250.2 1108.5)" r="160">
+      <stop id="stop2992" stop-color="#00006c" offset="0"/>
+      <stop id="stop2994" stop-color="#0064e0" offset="1"/>
+    </radialGradient>
+    <linearGradient id="linearGradient4925" y2="494.71" gradientUnits="userSpaceOnUse" x2="329.37" gradientTransform="matrix(.40250 -.020464 .020464 .40250 240.79 324.58)" y1="428.44" x1="388.83">
+      <stop id="stop3797" stop-color="#00006c" offset="0"/>
+      <stop id="stop3799" stop-color="#0064e0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4928" y2="555.01" gradientUnits="userSpaceOnUse" x2="401.07" gradientTransform="translate(-30.204 -324.25)" y1="806.67" x1="434.93">
+      <stop id="stop3805" stop-color="#00006c" offset="0"/>
+      <stop id="stop3811" stop-color="#0038d4" offset=".71677"/>
+      <stop id="stop3807" stop-color="#0074e4" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4932" y2="532.84" gradientUnits="userSpaceOnUse" x2="756.83" gradientTransform="translate(-31.076 -324.06)" y1="538.14" x1="720.17">
+      <stop id="stop3905" stop-color="#80b3ff" offset="0"/>
+      <stop id="stop3907" stop-color="#06f" offset=".43554"/>
+      <stop id="stop3909" stop-color="#04a" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4935" y2="562.69" gradientUnits="userSpaceOnUse" x2="450.42" gradientTransform="translate(-30.204 -324.25)" y1="530.97" x1="710.52">
+      <stop id="stop3845" stop-color="#0000c0" offset="0"/>
+      <stop id="stop3911" stop-color="#06f" offset=".12622"/>
+      <stop id="stop3884" stop-color="#00a8f0" offset=".43554"/>
+      <stop id="stop3913" stop-color="#0055d4" offset=".91638"/>
+      <stop id="stop3847" stop-color="#0000b4" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4938" y2="547.11" gradientUnits="userSpaceOnUse" x2="574.73" gradientTransform="translate(-30.204 -324.25)" y1="589.21" x1="609.2">
+      <stop id="stop4188" stop-color="#000098" offset="0"/>
+      <stop id="stop4190" stop-color="#0080e8" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" transform="translate(-363.13 -160.11)">
+    <g id="g4940">
+      <path id="path3858" d="m511 267.4c-25.6-116.37 92.14-132.68 64.14-11.59" stroke="url(#linearGradient4938)" stroke-linecap="round" stroke-width="4.8722" fill="none"/>
+      <path id="rect3832" d="m370.26 231.7s134.01 0.83386 187.4-4.5849c53.395-5.4188 132.97-27.928 132.97-27.928l-0.47578 9.3573 35.367 0.15861-159.58 41.041-190.04 8.6207z" stroke-width="0" fill="url(#linearGradient4935)"/>
+      <path id="path3150" d="m690.16 208.48-1.2405 9.6051 37.2-9.9062z" fill="url(#linearGradient4932)"/>
+      <path id="rect3776" d="m369.92 231.74 41.201 7.0752-3.5442 10.559 15.495 113.49-6.8576 122.63c6.3719 5.8016-12.194 8.6238-16.408 12.308l-30.677 8.947c14.326-29.912 11.372-82.385 11.296-125.67 0-31.605-10.505-149.34-10.505-149.34z" fill="url(#linearGradient4928)"/>
+      <path id="path3188" d="m411.09 238.81 0.32951 9.681-5.2418-0.24005z" fill="#59f"/>
+      <path id="path3774" d="m406.32 528.06-18.823-10.254-18.159-11.083 31.062-9.9357 14.167-10.008-1.5086 22.462z" fill="url(#linearGradient4925)"/>
+      <path id="rect2985" d="m406.2 248.11s102.47 1.8606 155.8-4.806c53.333-6.6667 164.2-35.194 164.2-35.194s-9.0573 86.626-10.385 129.02c-1.328 42.399 2.4171 125.37 2.4171 125.37l7.9683 25.609-320 40 6.6402-19.127s6.1377-75.169 5.031-118.65c-1.1067-43.479-11.671-142.23-11.671-142.23z" fill="url(#radialGradient4922)"/>
+      <path id="path3853" d="m529.69 266.26c-26.279-119.43 94.555-136.16 65.818-11.895" stroke="url(#linearGradient4919)" stroke-linecap="round" stroke-width="5" fill="none"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Blue bag</dc:title>
+        <dc:date>2011-09-20T22:31:04</dc:date>
+        <dc:description>Blue bag for shopping. Bolsa azul de compras.</dc:description>
+        <dc:source>http://openclipart.org/detail/161569/blue-bag-by-ehecatl1138</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Ehecatl1138</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>azul</rdf:li>
+            <rdf:li>bag</rdf:li>
+            <rdf:li>blue</rdf:li>
+            <rdf:li>bolsa</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>compras</rdf:li>
+            <rdf:li>mall</rdf:li>
+            <rdf:li>shopping</rdf:li>
+            <rdf:li>tiendas</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
