@@ -12,7 +12,7 @@ if(isset($_POST['login'])){
     if($user){
         $isUser = isUSER($username);
         if($isUser){
-            header("Location: ../default.php");
+            header("Location: ../index.php");
         } else{
             header("Location: ../AdminPanel/MainDashboard/dashboard.php");
         }
@@ -31,7 +31,9 @@ if(isset($_POST['login'])){
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.1/dist/css/bootstrap.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../styles/assets/images/Blue_bag.svg" />
+
     <style>
         <?php include('style/loginStyle.php'); ?>
     </style>
@@ -68,8 +70,8 @@ if(isset($_POST['login'])){
                             
                         </div>
                       </form>
-                         <a id="white" href="http://localhost/SRT/UserLogin/forgotPassword.php">Forgot Password</a>
-                            <p id="white" id="white">Dont't have an account?<a href="http://localhost/SRT/UserLogin/registration.php">Register</a></p>
+                         <a id="white" href="http://localhost/bcs-project/UserLogin/forgotPassword.php">Forgot Password</a>
+                            <p id="white" id="white">Dont't have an account?<a href="http://localhost/bcs-project/UserLogin/registration.php">Register</a></p>
                   </div><div class="col-md-3" id="welcome">
                   </div>
               </div>

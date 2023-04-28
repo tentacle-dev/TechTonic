@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Shri raam tex.</title>
+    <title>TechTonic</title>
 
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -61,8 +61,8 @@
                 
                 
                     <div class="container">
-                        <span class="text-primary">Shri Raam tex</span>
-                     is a modern clothing shop noted for its inexpensive prices and trend-driven patterns. fashion retailer draws inspiration from the newest trends and offers a variety of styles for the fashion-forward lady. From workwear to street style to a night out, the <span class="text-primary">Shri Raam tex</span> has you covered. Shop the current <span class="text-primary">Shri Raam tex</span> clothing collection, which includes sarees, shalwars and many more.
+                        <span class="text-primary">TechTonic</span>
+                     is a modern clothing shop noted for its inexpensive prices and trend-driven patterns. fashion retailer draws inspiration from the newest trends and offers a variety of styles for the fashion-forward lady. From workwear to street style to a night out, the <span class="text-primary">TechTonic</span> has you covered. Shop the current <span class="text-primary">TechTonic</span> clothing collection, which includes sarees, shalwars and many more.
                     </div>
                 </section>
                 </div>

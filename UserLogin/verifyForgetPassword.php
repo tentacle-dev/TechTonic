@@ -21,6 +21,7 @@ if(isset($_POST['verify'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../styles/assets/images/Blue_bag.svg" />
     <title>Verification token</title>
     <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.1/dist/css/bootstrap.css">
     <style>

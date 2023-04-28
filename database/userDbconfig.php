@@ -12,7 +12,7 @@ function setUserData($username,$email,$updates,$mobilenumber,$address,$password,
         $stmt->bindparam(':email',$email);
         $stmt->bindparam(':updates',$updates);
         $role = 'User';
-        $status = 'Unverified';
+        $status = 'Verified';
         $stmt->bindparam(':status',$status);
 
         $stmt->bindparam(':role',$role);

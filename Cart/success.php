@@ -33,7 +33,7 @@ if($result){
 
             $mail->Username = "texshriraam@gmail.com";
 
-            $mail->Password = 'shriraamtex';
+            $mail->Password = 'xmtbxtrpvwrjwadh';
 
             $mail->Subject = "Email verification";
 
@@ -68,7 +68,7 @@ if($result){
 
             $mail->Username = "texshriraam@gmail.com";
 
-            $mail->Password = 'shriraamtex';
+            $mail->Password = 'xmtbxtrpvwrjwadh';
 
             $mail->Subject = "New Order has been placed";
 
@@ -76,12 +76,12 @@ if($result){
 
             $mail->setFrom('texshriraam@gmail.com');
 
-            $mail->Body ="<h1>A new order has been placed</p></h1><a href='http://localhost/srt/AdminPanel/Orders/newOrders.php'>View the order</a></div>";
+            $mail->Body ="<h1>A new order has been placed</p></h1><a href='http://localhost/bcs-project/AdminPanel/Orders/newOrders.php'>View the order</a></div>";
 
             $mail->addAddress('tanusheduresource@gmail.com');
 
             if($mail->Send()){
-                header('Location:../default.php');
+                header('Location:../index.php');
             } else {
                 echo "Error";
             }

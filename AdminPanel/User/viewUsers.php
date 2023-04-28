@@ -63,7 +63,6 @@
                                                         $total = $review['user_emailaddress'];
                                                         $coupon = $review['user_mobilenumber'];
                                                         $subtotal = $review['user_address'];
-                                                        $date =$review['created_at'];
                                                   ?>
                                                   <tr>
                                                     <td><?php echo $username; ?></td>

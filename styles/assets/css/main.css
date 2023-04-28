@@ -3086,7 +3086,7 @@ top: 2px;
 }
 
 .hero-area .hero-small-banner {
-  height: 244px;
+  height: auto;
   position: relative;
   background-repeat: no-repeat;
   background-size: contain;

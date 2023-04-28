@@ -45,6 +45,7 @@ use PHPMailer\PHPMailer\Exception;
             $errors['password']="Passwords don't match";
 
         }
+        echo $email , $username , $address , $number , $password , $cpass;
         
 
         $updates = $_POST['email_updates'];
@@ -112,8 +113,10 @@ use PHPMailer\PHPMailer\Exception;
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.1/dist/css/bootstrap.css">
     <link rel="stylesheet" href="stylereg.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../styles/assets/images/Blue_bag.svg" />
+
     <style>
         <?php include('style/registrationStyle.php') ?>
     </style>
@@ -182,8 +185,8 @@ use PHPMailer\PHPMailer\Exception;
                             
                         </div>
                          <div class="text-center">
-                            <a id="" href="http://localhost/SRT/UserLogin/forgotPassword.php">Forgot Password</a>
-                            <p id="" >Dont't have an account?<a href="http://localhost/SRT/UserLogin/login.php">Login</a></p>
+                            <a id="" href="http://localhost/bcs-project/UserLogin/forgotPassword.php">Forgot Password</a>
+                            <p id="" >Dont't have an account?<a href="http://localhost/bcs-project/UserLogin/login.php">Login</a></p>
                          </div>
                   </div><div class="col-md-3" id="welcome">
                       <h1>Welcome</h1>

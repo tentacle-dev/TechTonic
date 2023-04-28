@@ -14,9 +14,9 @@
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="top-middle">
                             <ul class="useful-links">
-                                <li><a href="default.php">Home</a></li>
-                                <li><a href="http://localhost/srt/about-us.php">About Us</a></li>
-                                <li><a href="http://localhost/SRT/contact-us.php">Contact Us</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="http://localhost/bcs-project/about-us.php">About Us</a></li>
+                                <li><a href="http://localhost/bcs-project/contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -24,11 +24,11 @@
                         <div class="top-end">
                             <?php
                             if(isset($_SESSION['user_id'])){ ?>
-                                <div class="user"><a href="http://localhost/SRT/loggeduser/logout.php">Logout</a></div>
+                                <div class="user"><a href="http://localhost/bcs-project/loggeduser/logout.php">Logout</a></div>
                            <?php } else { ?>
                                 <div class="user"><ul class="user-login">
-                                <li><a href="http://localhost/SRT/UserLogin/Login.php">Sign in</a></li>
-                                <li><a href="http://localhost/SRT/UserLogin/registration.php">Sign up</a></li></ul></div>
+                                <li><a href="http://localhost/bcs-project/UserLogin/Login.php">Sign in</a></li>
+                                <li><a href="http://localhost/bcs-project/UserLogin/registration.php">Sign up</a></li></ul></div>
                             <?php } ?>
                             
                             
@@ -44,8 +44,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-3 col-7">
                         <!-- Start Header Logo -->
-                        <a class="navbar-brand" href="default.php">
-                            <img src="styles/assets/images/logo/SRTlogo.png" style="width:100px; height:auto;" alt="Logo">
+                        <a class="navbar-brand" href="index.php">
+                            <img src="images/blacklogo.png" style="width:200px; height:auto;" alt="Logo">
                         </a>
                         <!-- End Header Logo -->
                     </div>
@@ -158,7 +158,7 @@
                                     
                                     <?php 
                                     include('database/dbconn.php');
-                                    $stmt = $conn->prepare("SELECT * FROM main_category");
+                                    $stmt = $conn->prepare("SELECT * FROM main_category LIMIT 2");
                                     $stmt->execute();
                                     while($row = $stmt->fetch()){
                                         $main_name = $row['main_category_name'];
@@ -192,16 +192,16 @@
                                             data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Profile</a>
                                         <ul class="sub-menu collapse" id="submenu-1-4">
-                                            <li class="nav-item"><a href="http://localhost/SRT/viewMyOrders.php">My orders</a>
+                                            <li class="nav-item"><a href="http://localhost/bcs-project/viewMyOrders.php">My orders</a>
                                             </li>
-                                            <li class="nav-item"><a href="http://localhost/SRT/viewMyReservations.php">My reservations</a>
+                                            <li class="nav-item"><a href="http://localhost/bcs-project/viewMyReservations.php">My reservations</a>
                                             </li>
-                                            <li class="nav-item"><a href="http://localhost/SRT/viewMyEnquiries.php">My enquiry</a>
+                                            <li class="nav-item"><a href="http://localhost/bcs-project/viewMyEnquiries.php">My enquiry</a>
                                             </li>
-                                            <li class="nav-item"><a href="http://localhost/SRT/viewMyReviews.php">My reviews</a>
+                                            <li class="nav-item"><a href="http://localhost/bcs-project/viewMyReviews.php">My reviews</a>
                                             </li>
                                             <hr>
-                                            <li class="nav-item"><a href="http://localhost/srt/profile.php">Change profile information</a>
+                                            <li class="nav-item"><a href="http://localhost/bcs-project/profile.php">Change profile information</a>
                                             </li>
                                             <!-- <li class="nav-item"><a href="blog-grid-sidebar.html">Change Password</a>
                                             </li> -->
@@ -216,9 +216,9 @@
                                             data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation">Log In</a>
                                         <ul class="sub-menu collapse" id="submenu-1-4">
-                                            <li class="nav-item"><a href="http://localhost/SRT/UserLogin/Login.php">Sign in</a>
+                                            <li class="nav-item"><a href="http://localhost/bcs-project/UserLogin/Login.php">Sign in</a>
                                             </li>
-                                            <li class="nav-item"><a href="http://localhost/SRT/UserLogin/Registration.php">Sign up</a>
+                                            <li class="nav-item"><a href="http://localhost/bcs-project/UserLogin/Registration.php">Sign up</a>
                                             </li>
                                             
                                         </ul>
@@ -226,7 +226,7 @@
                                     <?php } ?>
 
                                     <li class="nav-item">
-                                        <a href="http://localhost/SRT/contact-us.php" aria-label="Toggle navigation">Contact Us</a>
+                                        <a href="http://localhost/bcs-project/contact-us.php" aria-label="Toggle navigation">Contact Us</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->

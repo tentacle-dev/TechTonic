@@ -6,9 +6,6 @@ $errors = array('name'=>'','price'=>'','errorUploadType'=>'','errorUpload'=>'','
          // File upload configuration 
                      $sku = $_POST['SKU'] ;        
                      $name  = $_POST['name'] ;   
-                     if(!preg_match('/^[a-zA-Z\s]+$/', $name)){
-                         $errors['name'] = 'Name must be letters only';
-                     }
                      $desc = $_POST['desc'];
                      $tags = $_POST['tags'];  
                      $subcategory = $_POST['category'];
@@ -154,7 +151,7 @@ $errors = array('name'=>'','price'=>'','errorUploadType'=>'','errorUpload'=>'','
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.1/dist/css/bootstrap.css">
         <link href="../Admin/css/styles.css" rel="stylesheet" />
       <link rel="shortcut icon" type="image/x-icon" href="../../styles/assets/images/Settings.svg" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>

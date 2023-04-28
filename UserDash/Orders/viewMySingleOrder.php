@@ -43,18 +43,18 @@
                             <div class="row">
                                 <div class="col">
                                     <a href="javascript:;">
-    												<img src="../../styles/assets/images/logo/SRTlogo.png" width="150" alt="">
+    												<img src="../../images/blacklogo.png" width="300" alt="">
 												</a>
                                 </div>
                                 <div class="col company-details">
                                     <h2 class="name">
                                         <a target="_blank" href="javascript:;">
-									SHRI RAAM TEX
+									TECH TONIC
 									</a>
                                     </h2>
                                     <div>2nd Cross Street, Colombo - 11, Sri Lanka</div>
-                                    <div>(011)2 458 1247</div>
-                                    <div>shriraamtex@gmail.com</div>
+                                    <div>(011)2 545 4545</div>
+                                    <div>techtonic@gmail.com</div>
                                 </div>
                             </div>
                         </header>

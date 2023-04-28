@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8" />
       <meta http-equiv="x-ua-compatible" content="ie=edge" />
-      <title>Shri raam tex.</title>
+      <title>TechTonic</title>
       <meta name="description" content="" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="shortcut icon" type="image/x-icon" href="styles/assets/images/favicon.svg" />
@@ -40,7 +40,7 @@
       <section class="page-section" id="contact">
          <div class="container">
             <div class="text-center">
-               <h2 class="section-heading text-uppercase text-primary">Contact Us</h2>
+               <h2 class="section-heading text-uppercase text-primary">Contact TECH TONIC</h2>
                <h3 class="section-subheading text-muted"></h3>
             </div>
             <div class="row">
@@ -52,14 +52,14 @@
                      <div class="row align-items-stretch mb-5">
                         <div class="form-group">
                            <!-- Email address input-->
-                           <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" disabled value="shriraamtex@gmail.com" />
+                           <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" disabled value="techtonic@gmail.com" />
                            <div class="text-danger">
                               <!-- <?php echo $errors['emailres'] ?> -->
                            </div>
                         </div>
                         <div class="form-group">
                            <!-- Phone number input-->
-                           <input class="form-control" id="phone" name="number" type="tel" placeholder="Your Phone *" disabled value="011 233 7865" />
+                           <input class="form-control" id="phone" name="number" type="tel" placeholder="Your Phone *" disabled value="011 454 5454" />
                            <div class="text-danger">
                               <!-- <?php echo $errors['number'] ?> -->
                            </div>

@@ -11394,16 +11394,27 @@ p {
     margin-right: 0;
   }
 }
+
+.manrope{
+  font-family: 'manrope'
+}
+.header-text{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
 header.masthead {
+  background-image: url("../../images/phone-shops.jpg");
+}
+header.masthead{
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/pexels-tembela-bohle-1884581.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;

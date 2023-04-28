@@ -86,7 +86,7 @@ if(isset($_POST['add'])){
                                     <div class="col-md-6 text-center" >
                                     <form action="" method="post">
                                             <label for="">Category Name</label>
-                                            <input type="text" class="form-control" name="name"><br>
+                                            <input type="text" class="form-control" name="name" required><br>
                                             <button type="submit" class="btn btn-primary"name="add">Add category</button>
                                         </form>
                                     </div>

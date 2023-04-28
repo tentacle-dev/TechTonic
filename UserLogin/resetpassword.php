@@ -88,6 +88,8 @@ if(isset($_POST['resetpassword'])){
     
     <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.1/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../styles/assets/images/Blue_bag.svg" />
+
     <style>
         <?php include('style/resetpasswordStyle.php') ?>
         body {

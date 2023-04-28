@@ -107,8 +107,8 @@ $session = \Stripe\Checkout\Session::create([
     'quantity' => 1,
   ]],
   'mode' => 'payment',
-  'success_url' => 'http://localhost/srt/Cart/success.php',
-  'cancel_url' => 'http://localhost/srt/Cart/cancel.php',
+  'success_url' => 'http://localhost/bcs-project/Cart/success.php',
+  'cancel_url' => 'http://localhost/bcs-project/Cart/cancel.php',
 ]);
 } else {
     echo "Err";
@@ -129,6 +129,7 @@ $session = \Stripe\Checkout\Session::create([
 </script>
 
 <?php
+
 if(isset($_SESSION['cart'])){
 $count = count($_SESSION['cart']);
     if($count == 0){
@@ -173,7 +174,7 @@ if(isset($_POST['Mod_quantity'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>TechTonic</title>
     <link rel="stylesheet" href="Bootstrap/bootstrap-5.0.1/dist/css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
     <link rel="stylesheet" href="styles/assets/css/bootstrap.min.css" />
@@ -237,7 +238,7 @@ if(isset($_POST['Mod_quantity'])){
                     <?php
                      try{
                          include('database/dbconn.php');
-                        $stmt = $conn->prepare("SELECT * FROM product WHERE product_quantity > 0 AND product_statUS='Active'");      
+                        $stmt = $conn->prepare("SELECT * FROM product WHERE product_quantity > 0 AND product_status='Active'");      
                         $result = $stmt->execute();
                         $total=0; 
                         if(isset($_SESSION['cart'])){
@@ -314,7 +315,7 @@ if(isset($_POST['Mod_quantity'])){
                     } ?>
                     <?php } else { ?>
                         <div class="d-flex justify-content-center">
-                            <a href="default.php">Check for products</a>
+                            <a href="index.php">Check for products</a>
                         </div>
                         <?php
 
@@ -429,7 +430,7 @@ if(isset($_POST['Mod_quantity'])){
                     </div>
                     <div class="d-flex justify-content-between text-center mt-4" id="btns">
                         <button type="submit" class="btn btn-primary me-2" name="checkout">Checkout</button>
-                        <a href="default.php" class="btn btn-default ms-2" >View products</a>
+                        <a href="index.php" class="btn btn-default ms-2" >View products</a>
                         <!-- <div class="btn btn-default ms-2">View products</div> -->
                         <?php 
                     }?>

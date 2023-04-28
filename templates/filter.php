@@ -70,9 +70,9 @@
                 let valueElement = document.querySelector('.range .range__value span') 
 
                 let options = {
-                min: 20,
-                max: 75000,
-                cur: 22500
+                min: 20000,
+                max: 1000000,
+                cur: 52500
                 }
 
                 if (rangeElement) {

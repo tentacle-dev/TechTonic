@@ -36,7 +36,7 @@ if(isset($_POST['add'])){
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-	<title>Shri raam tex.</title>
+	<title>TechTonic</title>
 
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -150,7 +150,7 @@ if(isset($_POST['add'])){
                     <div class="container">
                         <h4 class="text-danger text-center">
                             Sorry,<br>
-                            we ran out of stock for this category but don't worry we do have alot others. Please browse or search using the search above.
+                            We ran out of stock for this category but don't worry we do have alot others. Please browse or search using the search above.
                         </h4>
                     </div>
                     <?php

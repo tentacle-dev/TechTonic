@@ -64,7 +64,7 @@ if(isset($_POST['review'])){
             $mail->addAddress('tanusheduresource@gmail.com');
     
             if($mail->Send()){
-                header('Location:default.php');
+                header('Location:index.php');
             } else {
                 echo "Error";
             }
@@ -121,7 +121,7 @@ include_once('database/enquiryDbconfig.php');
 
     $mail->Username = "texshriraam@gmail.com";
 
-    $mail->Password = 'shriraamtex';
+    $mail->Password = 'xmtbxtrpvwrjwadh';
 
     $mail->Subject = "New enquiry has been placed";
 
@@ -134,7 +134,7 @@ include_once('database/enquiryDbconfig.php');
     $mail->addAddress('tanusheduresource@gmail.com');
 
     if($mail->Send()){
-        header('Location:default.php');
+        header('Location:index.php');
     } else {
         echo "Error";
     }
@@ -197,7 +197,7 @@ if(isset($_POST['wish'])){
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Shri raam tex.</title>
+    <title>TechTonic.</title>
 
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

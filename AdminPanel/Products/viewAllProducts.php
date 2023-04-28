@@ -34,8 +34,8 @@ if(isset($_POST['enable'])){
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>View All Products</title>
-        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="../Admin/css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.1/dist/css/bootstrap.css">
+      <link href="../Admin/css/styles.css" rel="stylesheet" />
       <link rel="shortcut icon" type="image/x-icon" href="../../styles/assets/images/Settings.svg" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>

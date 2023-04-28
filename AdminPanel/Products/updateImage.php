@@ -32,7 +32,7 @@ if(isset($_POST['update'])){
         $id = $_POST['id'];
         echo $id;
         $directory = "../../AddProducts/Thumbnail/";
-        $allowTypes = array('jpg','png','jpeg','gif');
+        $allowTypes = array('jpg','png','jpeg','gif' , 'webp');
          // get the image extension
          //$extension = substr($thumbnailname,strlen($thumbnailname)-4,strlen($thumbnailname));
          // allowed extensions

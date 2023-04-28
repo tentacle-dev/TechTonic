@@ -42,7 +42,7 @@ if(isset($_POST['newsletter'])){
 
         $mail->setFrom('texshriraam@gmail.com');
 
-        $mail->Body ="<h1>Email Notification from Shri raam tex</h1><br><p>Thank you for subscribing to our newsletter</p><a href='http://localhost/srt/UserDash/unsubscribe.php?email=$newsletter'>Unsubscribe</a></div>";
+        $mail->Body ="<h1>Email Notification from Shri raam tex</h1><br><p>Thank you for subscribing to our newsletter</p><a href='http://localhost/bcs-project/UserDash/unsubscribe.php?email=$newsletter'>Unsubscribe</a></div>";
 
         $mail->addAddress($newsletter);
 
@@ -102,7 +102,7 @@ if(isset($_POST['reserve'])){
 
         $mail->Username = "texshriraam@gmail.com";
 
-        $mail->Password = 'shriraamtex';
+        $mail->Password = "xmtbxtrpvwrjwadh";
 
         $mail->Subject = "New Reservation has been placed";
 
@@ -110,12 +110,12 @@ if(isset($_POST['reserve'])){
 
         $mail->setFrom('texshriraam@gmail.com');
 
-        $mail->Body ="<h1>A new reservation has been placed</h1><br><p>You can view the reservation by clicking the link below.</p><a href='http://localhost/srt/AdminPanel/Reservation/viewNewReservations.php'>Click here</a></div>";
+        $mail->Body ="<h1>A new reservation has been placed</h1><br><p>You can view the reservation by clicking the link below.</p><a href='http://localhost/bcs-project/AdminPanel/Reservation/viewNewReservations.php'>Click here</a></div>";
 
-        $mail->addAddress('tanusheduresource@gmail.com');
+        $mail->addAddress($email);
 
         if($mail->Send()){
-            header('Location:default.php');
+            header('Location:index.php');
         } else {
             echo "Error";
         }
@@ -154,7 +154,7 @@ if(isset($_POST['add'])){
    <head>
       <meta charset="utf-8" />
       <meta http-equiv="x-ua-compatible" content="ie=edge" />
-      <title>Shri raam tex.</title>
+      <title>TechTonic</title>
       <meta name="description" content="" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="shortcut icon" type="image/x-icon" href="styles/assets/images/Blue_bag.svg" />
@@ -234,6 +234,7 @@ if(isset($_POST['add'])){
          margin-left:20px;
          z-index:999;
          }
+         
       </style>
    </head>
    <body>
@@ -250,11 +251,13 @@ if(isset($_POST['add'])){
                   <div class="col-md-11"></div>
                   <div class="col-md-1" onclick="hideChatbot()"><i class="lni lni-close"></i></div>
                </div>
+
                <iframe 
                   allow="microphone;"
                   height="400"
                   src="https://console.dialogflow.com/api-client/demo/embedded/e60e3f04-e6b6-4ad0-b131-623f498402d1">
                </iframe>
+
             </div>
          </div>
       </div>
@@ -275,8 +278,8 @@ if(isset($_POST['add'])){
       <!-- Start Hero Area -->
       <header class="masthead">
          <div class="">
-            <div class="masthead-subheading">Wear the Storm</div>
-            <div class="masthead-heading text-uppercase">A classic never goes out of style
+            <div class="masthead-subheading header-text">Future-proof your life</div>
+            <div class="masthead-heading text-uppercase text-primary header-text">Innovative Tech at <span class="text-danger">Unbeatable Prices </span>
             </div>
             <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">Show Me More</a>
          </div>
@@ -291,7 +294,7 @@ if(isset($_POST['add'])){
                         <!-- Start Single Slider -->
                         <?php
                            include('database/dbconn.php');
-                           $stmt2prod =$conn->prepare("SELECT * FROM product WHERE (product_id % 2 = 0)  LIMIT 40");
+                           $stmt2prod =$conn->prepare("SELECT * FROM product WHERE product_status='Active'  LIMIT 40");
                            $stmt2prod->execute();
                            while($prod2 =$stmt2prod->fetch()){
                            
@@ -319,42 +322,20 @@ if(isset($_POST['add'])){
                </div>
                <div class="col-lg-5 col-12">
                   <div class="row">
-                     <?php
-                        include("database/dbconn.php");
-                        $stmt1prod = $conn->prepare("SELECT * FROM product WHERE (product_id % 2 <> 0) LIMIT 1");
-                        $stmt1prod->execute();
-                        while ($prod1 = $stmt1prod->fetch()){
-                        ?>
                      <div class="col-lg-12 col-md-6 col-12 md-custom-padding">
                         <!-- Start Small Banner -->
                         <div class="hero-small-banner "
                            style="background-color: #92a8d1;">
-                           <div class="content">
-                              <h2>
-                                 <span>SHRI RAAM TEXTILE</span>
-                                 Satisfying the customers for 10+ years
-                              </h2>
-                              <h3>
-                              </h3>
+                           <div class="">
+                              <h3 class="manrope mb-2 text-center">About Us</h3>
+                              <h5 class="text-primary manrope">
+                              The ecommerce site welcomes customers and is run by a team of tech enthusiasts who aim to provide the latest gadgets at affordable prices. The mission is to make technology accessible to everyone, with a range of products available to suit different needs and budgets. The site is a one-stop destination for all tech needs, including phones, computers, and electronic parts.
+                              </h5>
                            </div>
+                        </div>
+                        <div class="hero-small-banner" style='background-color:#939399'>
                         </div>
                         <!-- End Small Banner -->
-                     </div>
-                     <?php
-                        }
-                        ?>
-                     <div class="col-lg-12 col-md-6 col-12">
-                        <!-- Start Small Banner -->
-                        <div class="hero-small-banner style2">
-                           <div class="content">
-                              <h2>Top Products</h2>
-                              <p>Check out on our designer sarees</p>
-                              <div class="button">
-                                 <a class="btn" href="http://localhost/srt/main-category.php?id=3">View more</a>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- Start Small Banner -->
                      </div>
                   </div>
                </div>
@@ -376,7 +357,7 @@ if(isset($_POST['add'])){
             <div class="row">
                <?php 
                   include('database/dbconn.php');
-                  $stmt = $conn->prepare("SELECT * FROM product ORDER BY created_at DESC LIMIT 8 ");
+                  $stmt = $conn->prepare("SELECT * FROM product WHERE product_status='Active' ORDER BY created_at DESC LIMIT 16 ");
                   $stmt->execute();
                   while($row = $stmt->fetch()){
                   
@@ -420,7 +401,7 @@ if(isset($_POST['add'])){
       <section class="page-section bg-light" id="portfolio">
          <div class="container">
             <div class="text-center">
-               <h2 class="section-heading text-uppercase">Our top categories</h2>
+               <h2 class="section-heading text-uppercase">Our top selling products</h2>
             </div>
             <div class="row">
                <div class="col-lg-6 col-sm-6 mb-4">
@@ -430,10 +411,10 @@ if(isset($_POST['add'])){
                         <div class="portfolio-hover">
                            <div class="portfolio-hover-content"><i class="lni lni-frame-expand"></i></div>
                         </div>
-                        <img class="img-fluid" src="images/woman-6520542_640.jpg" alt="..." />
+                        <img  width='400px' height='300px' src="AddProducts/Thumbnail/6446884ead3985.70160516.webp" alt="..." />
                      </a>
                      <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Sarees</div>
+                        <div class="portfolio-caption-heading">Mobile Phones</div>
                         <div class="portfolio-caption-subheading text-muted">The originality which suits every ocassion</div>
                      </div>
                   </div>
@@ -445,11 +426,11 @@ if(isset($_POST['add'])){
                         <div class="portfolio-hover">
                            <div class="portfolio-hover-content"><i class="lni lni-frame-expand"></i></div>
                         </div>
-                        <img class="img-thumbnail" src="images/bride-6171757_640.jpg" alt="..." />
+                        <img class="" width='400px' height='300px' src="AddProducts/Thumbnail/64468a21c71f86.11689251.jpg" alt="..." />
                      </a>
                      <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Shalwar</div>
-                        <div class="portfolio-caption-subheading text-muted">Walk with the elegance</div>
+                        <div class="portfolio-caption-heading">Laptops</div>
+                        <div class="portfolio-caption-subheading text-muted">Work with the elegance</div>
                      </div>
                   </div>
                </div>
@@ -712,11 +693,11 @@ if(isset($_POST['add'])){
                         <div class="single-footer f-link">
                            <h3>Shop Departments</h3>
                            <ul>
-                              <li><a href="http://localhost/SRT/main-category.php?id=3">Sarees</a></li>
-                              <li><a href="http://localhost/SRT/main-category.php?id=4">Shalwars</a></li>
-                              <li><a href="http://localhost/SRT/sub-category.php?id=7">Bridal</a></li>
-                              <li><a href="http://localhost/SRT/sub-category.php?id=17">Party Shalwars</a></li>
-                              <li><a href="http://localhost/SRT/sub-category.php?id=5">Kancheepuram</a></li>
+                              <li><a href="http://localhost/bcs-project/main-category.php?id=1">Desktops</a></li>
+                              <li><a href="http://localhost/bcs-project/main-category.php?id=2">Laptops</a></li>
+                              <li><a href="http://localhost/bcs-project/sub-category.php?id=7">Dell Desktops</a></li>
+                              <li><a href="http://localhost/bcs-project/sub-category.php?id=17">Acer</a></li>
+                              <li><a href="http://localhost/bcs-project/sub-category.php?id=5">HP</a></li>
                            </ul>
                         </div>
                         <!-- End Single Widget -->

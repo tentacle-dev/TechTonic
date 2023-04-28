@@ -90,7 +90,7 @@ if(isset($_POST['prepare'])){
 
             $mail->Username = "texshriraam@gmail.com";
 
-            $mail->Password = 'shriraamtex';
+            $mail->Password = 'xmtbxtrpvwrjwadh';
 
             $mail->Subject = "Order Confirmation";
 

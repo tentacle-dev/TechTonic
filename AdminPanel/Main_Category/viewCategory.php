@@ -53,6 +53,7 @@
                                         </tr>
                                     </tfoot>
                                     <tbody>
+                                        
                                     <?php
                                             
                                             try{
@@ -74,10 +75,10 @@
 
                                                   </tr>
                                                   <?php
-                                                  }
-                                                  }catch(PDOException $e){
+                                                }
+                                            catch(PDOException $e){
                                                       $e->getMessage();
-                                                  }
+                                                }
                                             ?> 
 
                                     </tbody>

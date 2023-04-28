@@ -2,7 +2,7 @@
 session_start();
     unset($_SESSION['user_id']);
 
-    header('Location:../default.php');
+    header('Location:../index.php');
 
 
 ?>
